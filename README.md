@@ -177,6 +177,57 @@ Username: mydomain.com\jane_admin
 Type in password and press OK
 Restart the computer
 
+![68747470733a2f2f692e696d6775722e636f6d2f3348784a4c70652e706e67](https://github.com/user-attachments/assets/05410306-41be-4447-8bdb-f9259331b28e)
+![68747470733a2f2f692e696d6775722e636f6d2f3348784a4c70652e706e67](https://github.com/user-attachments/assets/949a7f5d-b51b-475c-b537-8541a80089e9)
+
+# Step 6: Setup Remote Desktop for non-administrative users on Client-1
+
+Log back into Client-1
+
+Use mydomain.com\jane_admin
+
+Right-click the Start menu and select System
+
+On the right-hand side of the screen, select Remote Desktop
+
+Under User Accounts, click "Select Users That Can Remotely Access This PC > select Add
+
+Type in the name of your domain users
+Select "Check Names" > OK > OK
+![68747470733a2f2f692e696d6775722e636f6d2f48674158564d582e706e67](https://github.com/user-attachments/assets/40236283-beb9-4880-9c9c-b97947c38fe4)
+![68747470733a2f2f692e696d6775722e636f6d2f305144556b356c2e706e67](https://github.com/user-attachments/assets/38c3f3d9-6960-405a-ae07-d5e091b9dc2b)
+
+# Step 7: Create as many additional users as you would like and attempt to log into Client-1 with one of the users' profiles
+
+Log back into DC-1 as jane_admin
+
+Search for "Powershell_ise,"
+
+Right-click on Powershell_ise and open it as an administrator
+
+At the top-left of the screen select New Script and paste the contents of the following script into it
+You can find the script here
+![68747470733a2f2f692e696d6775722e636f6d2f4d70764c4962422e706e67](https://github.com/user-attachments/assets/ee2f07eb-e861-4ebd-9b78-6de40c4eb0b0)
+![68747470733a2f2f692e696d6775722e636f6d2f563476497672652e706e67](https://github.com/user-attachments/assets/c7f86918-8ac0-44b1-ad4f-7a8708c59f5f)
+
+Click the green arrow button near the top-middle of the screen
+
+This will run the script
+
+Once the users have been created, go back to Active Directory Users and Computers > mydomain.com > _EMPLOYEES - You will see all the accounts that were created
+
+You can now log into Client-1 with one of the accounts that were created
+Try logging into Client-1 as user "base.milu" using the password "Password1"
+![68747470733a2f2f692e696d6775722e636f6d2f33484e314e66342e706e67](https://github.com/user-attachments/assets/7f279957-7a49-446b-a3a6-22f84bff4ee4)
+![image](https://github.com/user-attachments/assets/7548137c-643c-49a0-bdf6-f02679c7f87b)
+![68747470733a2f2f692e696d6775722e636f6d2f375a56427038612e706e67](https://github.com/user-attachments/assets/005f9c96-d257-4613-a66f-0a501aa2120f)
+![68747470733a2f2f692e696d6775722e636f6d2f457a67485752732e706e67](https://github.com/user-attachments/assets/a5bc2f63-5a7e-4682-80a8-4797c5e6a354)
+![68747470733a2f2f692e696d6775722e636f6d2f6859466f6478752e706e67](https://github.com/user-attachments/assets/9597e352-eb3b-4679-b6a3-0cf62f338507)
+
+
+
+
+
 
 
 
