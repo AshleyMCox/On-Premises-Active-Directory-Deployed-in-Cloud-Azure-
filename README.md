@@ -61,6 +61,25 @@ Find "Core Networking Diagnostics" and "ICMPv4" and enable these two inbound rul
 ![68747470733a2f2f692e696d6775722e636f6d2f627736656f4c682e706e67](https://github.com/user-attachments/assets/03b46029-8a28-442d-bca3-ea8f171c579a)
 ![68747470733a2f2f692e696d6775722e636f6d2f4259314f6867622e706e67 (1)](https://github.com/user-attachments/assets/38dc2e09-18d9-4424-a2b1-2087f4c4546a)
 
+Log back into Client-1 and the command line will automatically begin pinging DC-1 successfully
+![68747470733a2f2f692e696d6775722e636f6d2f38393057494a422e706e67](https://github.com/user-attachments/assets/11be8bff-6b71-4ccc-b913-fd7af0578e0f)
+
+# Step 3: Install Active Directory
+Log back into DC-1
+
+Open Server Manager
+
+Select "Add Roles and Features" > Follow the prompts
+
+At Server Roles, check "Active Directory Domain Services."
+
+Ignore how the picture below already says "Installed"
+Select Add Features > select Next
+
+Complete the installation
+![68747470733a2f2f692e696d6775722e636f6d2f445152564e6e6d2e706e67](https://github.com/user-attachments/assets/6b13a2c1-bffd-4046-8c5c-05ca6757a518)
+
+
 
 
 
