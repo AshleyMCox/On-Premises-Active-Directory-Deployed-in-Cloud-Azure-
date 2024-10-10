@@ -223,7 +223,7 @@ Try logging into Client-1 as user "base.milu" using the password "Password1"
 ![68747470733a2f2f692e696d6775722e636f6d2f375a56427038612e706e67](https://github.com/user-attachments/assets/005f9c96-d257-4613-a66f-0a501aa2120f)
 ![68747470733a2f2f692e696d6775722e636f6d2f457a67485752732e706e67](https://github.com/user-attachments/assets/a5bc2f63-5a7e-4682-80a8-4797c5e6a354)
 ![68747470733a2f2f692e696d6775722e636f6d2f6859466f6478752e706e67](https://github.com/user-attachments/assets/9597e352-eb3b-4679-b6a3-0cf62f338507)
-
+## Congratulations! You have implementated on-premises Active Directory and created users within an Azure virtual machine!🎉
 
 
 
